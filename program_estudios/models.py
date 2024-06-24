@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 from django.db import models
 
+=======
+>>>>>>> e61e18e (Primer commit)
 #Modelo basado en el excel de los programas de estudios de cada carrera
 
 from django.db import models
@@ -24,4 +27,7 @@ class CarrerasInter(models.Model):
     disponible = models.BooleanField(default=False)
     carreras = models.ForeignKey(Carreras, on_delete=models.CASCADE, related_name='carreras_inter')
     escuelas_mov = models.ForeignKey(EscuelasMov, on_delete=models.CASCADE, related_name='carreras_inter')
+<<<<<<< HEAD
 
+=======
+>>>>>>> e61e18e (Primer commit)
