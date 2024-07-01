@@ -1,6 +1,7 @@
 # Entorno virtual
 env/
 
+#Archivo .env
 .env
 
 # Django
