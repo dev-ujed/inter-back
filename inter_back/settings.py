@@ -20,11 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-2x$s&prm$t-87($6iy1ltbt=1%tx+2_ilta&sp2ax(b*p!n%l-'
-=======
-SECRET_KEY = 'django-insecure-gy#(49bc*$cpko3#d_-gjbe%)d3wp7*^i+&#o7*n(-rg^f$@6o'
->>>>>>> e61e18e (Primer commit)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -42,10 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-<<<<<<< HEAD
     'coreapi',
-=======
->>>>>>> e61e18e (Primer commit)
     #Programas de Estudios
     'program_estudios',
 ]
@@ -89,10 +82,6 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
     #}
-<<<<<<< HEAD
-
-=======
->>>>>>> e61e18e (Primer commit)
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'inter',
@@ -144,10 +133,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS' : 'rest_framework.schemas.coreapi.AutoSchema'
 }
-=======
->>>>>>> e61e18e (Primer commit)
