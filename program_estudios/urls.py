@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.urls import path, include
 from rest_framework import routers
 from program_estudios import views 
@@ -17,7 +16,6 @@ urlpatterns = [
 ]
 
 
-=======
 from django.urls import path
 from .views import *
 
@@ -26,7 +24,6 @@ urlpatterns = [
     path('mov-carreras/', movDestinos.as_view(), name='movDestinos'),
 ]
 
->>>>>>> e61e18e (Primer commit)
 #Filtrar por carrera: /mov-carreras/?carrera_id=1
 # por disponibilidad: /mov-carreras/?disponible=true
 #ambos: /mov-carreras/?carrera_id=1&disponible=true

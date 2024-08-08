@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from rest_framework import viewsets
 from .serializers import CarreraSerializer, EscuelasMovSerializer, CarrerasInterSerializer
 from .models import EscuelasMov, Carreras, CarrerasInter
@@ -15,7 +14,6 @@ class CarrerasInterViewSet(viewsets.ModelViewSet):
     queryset = CarrerasInter.objects.all()
     serializer_class = CarrerasInterSerializer
 
-=======
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .models import Carreras, CarrerasInter
@@ -44,4 +42,3 @@ class movDestinos(generics.ListAPIView):
             queryset = queryset.filter(disponible=disponible)
 
         return queryset
->>>>>>> e61e18e (Primer commit)

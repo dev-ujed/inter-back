@@ -12,13 +12,10 @@ class EscuelasMovSerializer(serializers.ModelSerializer):
         fields = ['id', 'nombre', 'pagina_web']
 
 class CarrerasInterSerializer(serializers.ModelSerializer):
-<<<<<<< HEAD
     carreras = serializers.PrimaryKeyRelatedField(queryset=Carreras.objects.all())
     escuelas_mov = serializers.PrimaryKeyRelatedField(queryset=EscuelasMov.objects.all())
-=======
     carreras = CarreraSerializer(read_only=True)
     escuelas_mov = EscuelasMovSerializer(read_only=True)
->>>>>>> e61e18e (Primer commit)
 
     class Meta:
         model = CarrerasInter
